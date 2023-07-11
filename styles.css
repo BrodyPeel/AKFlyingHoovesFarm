@@ -4,13 +4,14 @@ body {
     position: relative;
     background-color: #ADBCA5;
     color: #8C5F66;
+    font-family: 'Amatic SC', cursive;
 }
 h1, h2, h3 {
     font-family: 'Amatic SC', cursive;
 }
 .title-container {
     background-color: #E8B9AB;
-    padding: 1em;
+    padding: 0.5em;
     text-align: center;
     border-bottom: 1px solid #ddd;
 }
@@ -31,6 +32,8 @@ h1, h2, h3 {
     text-decoration: none;
     color: #8C5F66;
     margin: 0.5em;
+    font-size: 1.5em;
+    padding: 10px 20px;
 }
 .navbar a:hover {
     color: #CB769E;
@@ -44,6 +47,7 @@ h1, h2, h3 {
     right: 10px;
     z-index: 1;
     border: none;
+    padding: 15px;
 }
 @media (max-width: 768px) {
     .navbar {
@@ -53,6 +57,6 @@ h1, h2, h3 {
         background-color: #E8B9AB;
     }
     .navbar-toggler {
-        display: block;
-    }
+    display: block;
+}
 }
